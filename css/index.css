@@ -84,7 +84,10 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: black; 
+}
+
+nav :first-child {
 }
 
 nav :last-child {
@@ -251,4 +254,5 @@ button {
 
 .about-bottom-content {
     padding-left: 20px;
+    margin-top: 20px;
 }
