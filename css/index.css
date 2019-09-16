@@ -53,7 +53,9 @@ table {
 
 html, body {
     height: 100%;
+    width: 800px;
     font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -66,6 +68,21 @@ p {
     line-height: 1.4;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: .9em;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -76,6 +93,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 20px;
     border-bottom: 1px dashed black;
 }
 
@@ -112,6 +130,46 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -138,9 +196,29 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin-bottom: 0px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page */
+.about-top-content {
+    margin-bottom: 20px;
+    border-bottom: dashed black 1px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+
+.about-box {
+    width: 48%;
 }
