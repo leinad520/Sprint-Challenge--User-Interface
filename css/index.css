@@ -64,6 +64,10 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+h3 {
+    margin-top: 10px;
+}
+
 p {
     line-height: 1.4;
 }
@@ -71,7 +75,7 @@ p {
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
     margin-top: 20px;
     margin-bottom: 35px;
@@ -82,6 +86,11 @@ nav a {
     text-decoration: none;
     color: black;
 }
+
+nav :last-child {
+    margin-right: 40px;
+}
+
 
 .container {
     width: 800px;
@@ -210,6 +219,7 @@ footer nav a {
     border-bottom: dashed black 1px;
     margin-top: 20px;
     padding-bottom: 20px;
+    padding-left: 20px;
 }
 
 .about-middle-content {
@@ -221,4 +231,24 @@ footer nav a {
 
 .about-box {
     width: 48%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 47%;
+}
+
+button {
+    margin-top: 15px;
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.about-bottom-content {
+    padding-left: 20px;
 }
